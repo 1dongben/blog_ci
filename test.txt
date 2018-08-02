@@ -1,3 +1,7 @@
 number one
 number two
+<<<<<<< HEAD
 three
+=======
+number three
+>>>>>>> feature1
