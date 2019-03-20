@@ -8,8 +8,8 @@
 	<?php echo form_open('user/register');?>
     <h2>请注册</h2>
     <form>
-    	<input type="text" name="username"><br>
-    	<?php echo form_error('username');?>
+        <input type="text" name="username"><br>
+        <?php echo form_error('username');?>
     	
     	<input type="text" name="password"><br>
     	<?php echo form_error('password');?>
