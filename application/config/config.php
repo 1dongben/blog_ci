@@ -432,7 +432,8 @@ $config['standardize_newlines'] = FALSE;
 |          for backwards compatibility purposes!
 |
 */
-$config['global_xss_filtering'] = FALSE;
+$config['global_xss_filtering'] = TRUE;
+//参数 'global_xss_filtering' 已经废弃，保留它只是为了实现向前兼容。 XSS 过滤应该在*输出*的时候进行，而不是*输入*的时候！
 
 /*
 |--------------------------------------------------------------------------
